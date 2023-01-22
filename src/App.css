@@ -1,5 +1,15 @@
+/* @font-face {
+  font-family: 'Univers';
+  src: url('../public/univers-font.ttf') format('ttf');
+} */
+
+@import url('https://fonts.google.com/download?family=Roboto');
+
+/* $main-font: Univers */
+
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
@@ -14,14 +24,71 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+  padding: 8px;
+  background-color: white;
+  display: -webkit-flex;
+  -webkit-box-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid #fff;
+  /* z-index: 10000; */
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+}
+
+.button-nav {
+  text-decoration: none;
+  color: black;
+}
+
+.misoul-live-header {
+  display:flex;
+  flex-direction: row;
+  padding: 0 8px;
+}
+
+.live-banner {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+}
+
+.live-now-text {
+  font-size: 11px;
+}
+
+.live-dot {
+  display: inline-block;
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #e81717;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /* -webkit-animation: flickerAnimation 2s infinite;
+  -moz-animation: flickerAnimation 2s infinite;
+  -o-animation: flickerAnimation 2s infinite; */
+  animation: flickerAnimation 2s infinite;
+}
+
+.live-broadcast-banner {
+  /* width: 53%; */
+  /* padding: 0 10px; */
 }
 
 .App-link {
@@ -34,5 +101,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@media screen and (min-width: 510px) {
+  .live-banner {
+    display: flex;
   }
 }

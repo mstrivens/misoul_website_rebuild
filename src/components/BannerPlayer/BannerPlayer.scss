@@ -1,0 +1,35 @@
+.banner-player-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.banner-player-wrapper {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.banner-player-station-title {
+  font-size: 10px;
+}
+
+.play-button {
+  height: 20px;
+  width: 20px;
+  padding: 0 10px;
+}
+
+.playing-now-text {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 510px) {
+  .banner-player-list {
+    flex-direction: row;
+  }
+
+  .banner-player-wrapper {
+    padding: 0 10px;
+  }
+}
