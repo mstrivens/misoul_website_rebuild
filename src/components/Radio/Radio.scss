@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0 32px;
+  padding: 0 32px 30px;
 }
 
 .radio-page-title {
@@ -12,6 +12,43 @@
 }
 
 .radio-page-info {
-  margin: 10px 0;
+  margin: 10px 0 0;
   font-size: 13px;
+}
+
+.radio-page-wrapper {
+  .nav-menu-links-radio {
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    margin: 10px 0;
+    display: flex;
+    overflow: scroll;
+  }
+  
+  .button-nav-radio {
+    font-size: 12px;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    letter-spacing: -0.5px;
+    color: black;
+    white-space: nowrap;
+
+  }
+  .radio-page-info.nested {
+    padding: 10px 10px;
+    margin: 0;
+  }
+
+  .grid-nav-title {
+    font-size: 24px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    letter-spacing: -0.5px;
+    color: black;
+    white-space: nowrap;
+    font-weight: 600;
+  }
 }

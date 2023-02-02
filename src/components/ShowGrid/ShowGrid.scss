@@ -1,0 +1,21 @@
+.show-grid-wrapper {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+}
+
+.show-grid-item {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-image {
+  height: 300px;
+  width: 300px;
+  border-bottom: 5px solid white;
+}
+
+.mixcloud-player {
+  width: 300px;
+}

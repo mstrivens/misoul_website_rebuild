@@ -1,0 +1,10 @@
+.showgrid-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  width: 100%;
+}
+
+.list-title {
+  display: flex;
+}

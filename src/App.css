@@ -38,21 +38,77 @@
   height: 50px;
 }
 
-.nav-bar {
+/* .nav-bar {
   display: flex;
   justify-content: space-between;
   width: 50%;
   align-items: center;
+} */
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home-page-link {
+  height: 35px;
 }
 
 .logo {
   height: 35px;
 }
 
-.button-nav {
+.nav-menu-links {
+  display: none;
+  position: fixed;
+  right: 0;
+  background: black;
+  width: 70%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-menu-links-active {
+    position: absolute;
+    right: 0px;
+    top: 57px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 10;
+}
+
+.dropdown-menu-icon {
+  /* background: black; */
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 17px;
+  height: 30px;
+  width: 30px;
+}
+
+/* .button-nav {
   text-decoration: none;
   color: black;
+} */
+
+.button-nav {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  /* font-weight: 600; */
+  letter-spacing: -0.5px;
 }
+
+.button-nav.active {
+  font-weight: bold;
+  color: #333;
+}
+
 
 .misoul-live-header {
   display:flex;
@@ -68,7 +124,9 @@
 }
 
 .live-now-text {
-  font-size: 11px;
+  font-size: 9px;
+  flex-wrap: nowrap;
+  display: flex;
 }
 
 .live-dot {
@@ -84,11 +142,15 @@
   -moz-animation: flickerAnimation 2s infinite;
   -o-animation: flickerAnimation 2s infinite; */
   animation: flickerAnimation 2s infinite;
+  margin: 0 5px 0 0;
 }
 
 .live-broadcast-banner {
   /* width: 53%; */
   /* padding: 0 10px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-link {
@@ -113,5 +175,33 @@
 @media screen and (min-width: 510px) {
   .live-banner {
     display: flex;
+  }
+
+  .nav-menu-links {
+    display: flex;
+    position: unset;
+    background: unset;
+    background-color: unset;
+  }
+
+  .button-nav {
+    color: black;
+    font-size: 12px;
+  }
+
+  .button-nav:hover {
+    color:#333
+  }
+
+  .dropdown-menu-icon {
+    display: none;
+  }
+
+  .live-broadcast-banner .live-dot {
+      display: none
+  }
+
+  .live-broadcast-banner {
+    flex-direction: row;
   }
 }

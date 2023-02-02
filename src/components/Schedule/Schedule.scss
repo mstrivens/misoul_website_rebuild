@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+ul {
+  li:first-of-type {
+    padding: 18px 0 12px 0;
+  }
+}
+
+.daily-broadcast-header {
+  display: flex;
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.daily-broadcast-header-day {
+  font-weight: 700;
+}
+
+.timeslot-info {
+  display: flex;
+  padding: 12px 0;
+  font-size: 14px;
+  letter-spacing: -0.7px;
+}
+
+.timeslot-live-now {
+  width: 24px;
+  height: 20px;
+}
+
+.timeslot-live-dot {
+  display: inline-block;
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #e81717;
+  border-radius: 4px;
+  animation: flickerAnimation 2s infinite;
+}
+
+.timeslot-dj {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 510px) {
+  ul {
+    padding: 0 40px;
+  }
+}

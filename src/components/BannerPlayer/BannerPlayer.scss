@@ -1,7 +1,7 @@
 .banner-player-list {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  // display: flex;
+  // justify-content: space-between;
+  // flex-direction: column;
 }
 
 .banner-player-wrapper {
@@ -10,11 +10,24 @@
   height: 30px;
 }
 
+.banner-player-station-number {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  color: white;
+}
+
 .banner-player-station-title {
   font-size: 10px;
+  margin-left: auto;
+}
+
+.radio-icon-tag {
+  margin: auto;
 }
 
 .play-button {
+  // display:flex;
   height: 20px;
   width: 20px;
   padding: 0 10px;
@@ -22,14 +35,40 @@
 
 .playing-now-text {
   font-weight: 600;
+  font-size: 10px;
+}
+
+.play-button-svg {
+  cursor: pointer;
+}
+
+.radio-player {
+  display: none;
+}
+
+.loading-spinner {
+  width:12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 3px auto;
+  border: 1px solid #f3f3f3; /* Light grey */
+  border-top: 1px solid black; /* Blue */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @media screen and (min-width: 510px) {
-  .banner-player-list {
-    flex-direction: row;
-  }
+  // .banner-player-list {
+  //   flex-direction: row;
+  // }
 
   .banner-player-wrapper {
-    padding: 0 10px;
+    padding: 0 5px;
+    width: 100%;
   }
 }
