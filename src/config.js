@@ -879,37 +879,37 @@ const sundaySchedule = [
 export const scheduleList = [
   {
     day: "Monday",
-    date: "2023-01-30",
+    date: "2023-02-13",
     schedule: mondaySchedule
   },
   {
     day: "Tuesday",
-    date: "2023-01-31",
+    date: "2023-02-14",
     schedule: tuesdaySchedule
   },
   {
     day: "Wednesday",
-    date: "2023-02-01",
+    date: "2023-02-15",
     schedule: wednesdaySchedule
   },
   {
     day: "Thursday",
-    date: "2023-02-02",
+    date: "2023-02-16",
     schedule: thursdaySchedule
   },
   {
     day: "Friday",
-    date: "2023-02-03",
+    date: "2023-02-17",
     schedule: fridaySchedule
   },
   {
     day: "Saturday",
-    date: "2023-02-04",
+    date: "2023-02-18",
     schedule: saturdaySchedule
   },
   {
     day: "Sunday",
-    date: "2023-01-29",
+    date: "2023-02-12",
     schedule: sundaySchedule
   },
 ]
