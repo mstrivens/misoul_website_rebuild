@@ -57,7 +57,17 @@ export const promoGridItems = [
     src: 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FFlashman_%2Fa-latin-odyssey-a-conversation-about-food-music-and-culture-in-latin-america%2F',
     image: SunnyDay,
     promoScore: 2
-  }
+  },
+  {
+    src: 'https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FFlashman_%2Fny-party-in-a-grassy-field%2F',
+    image: GrassyField,
+    promoScore: null
+  },
+  {
+    src: "https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FFlashman_%2Fsunny-day-soul-and-reggae%2F",
+    image: SoulReggae,
+    promoScore: null
+  },
 ]
 
 export const residentDjsList = [
