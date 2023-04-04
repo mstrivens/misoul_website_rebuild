@@ -114,6 +114,12 @@ export const eventsList = [
     description: "Valentine night special - Mi-Soul Presents Love Party @ Boisdale Canary Wharf",
     date: '14.02.2023',
   },
+  // {
+  //   name: "Mi-Soul Friday's @ Boisdale",
+  //   image: MiSoulFridays,
+  //   description: "Every Friday night, you can find Mi-Soul DJ's on rotation downstairs in Boisdale of Canary Wharf, playing the best in soulful music from 7pm-2am. It's free entry, or you can book a table for food and drinks",
+  //   date: '7pm Fridays',
+  // },
 ]
 
 // export const scheduleObject = {
@@ -888,38 +894,138 @@ const sundaySchedule = [
 
 export const scheduleList = [
   {
+    day: "Sunday",
+    date: "2023-04-02",
+    schedule: sundaySchedule
+  },
+  {
     day: "Monday",
-    date: "2023-02-13",
+    date: "2023-04-03",
     schedule: mondaySchedule
   },
   {
     day: "Tuesday",
-    date: "2023-02-14",
+    date: "2023-04-04",
     schedule: tuesdaySchedule
   },
   {
     day: "Wednesday",
-    date: "2023-02-15",
+    date: "2023-04-05",
     schedule: wednesdaySchedule
   },
   {
     day: "Thursday",
-    date: "2023-02-16",
+    date: "2023-04-06",
     schedule: thursdaySchedule
   },
   {
     day: "Friday",
-    date: "2023-02-17",
+    date: "2023-04-07",
     schedule: fridaySchedule
   },
   {
     day: "Saturday",
-    date: "2023-02-18",
+    date: "2023-04-08",
     schedule: saturdaySchedule
   },
   {
     day: "Sunday",
-    date: "2023-02-12",
+    date: "2023-04-09",
     schedule: sundaySchedule
   },
+  {
+    day: "Monday",
+    date: "2023-04-10",
+    schedule: mondaySchedule
+  },
+  {
+    day: "Tuesday",
+    date: "2023-04-11",
+    schedule: tuesdaySchedule
+  },
+  {
+    day: "Wednesday",
+    date: "2023-04-12",
+    schedule: wednesdaySchedule
+  },
+  {
+    day: "Thursday",
+    date: "2023-04-13",
+    schedule: thursdaySchedule
+  },
+  {
+    day: "Friday",
+    date: "2023-04-14",
+    schedule: fridaySchedule
+  },
+  {
+    day: "Saturday",
+    date: "2023-04-15",
+    schedule: saturdaySchedule
+  },
+  {
+    day: "Sunday",
+    date: "2023-04-16",
+    schedule: sundaySchedule
+  },
+  {
+    day: "Monday",
+    date: "2023-04-17",
+    schedule: mondaySchedule
+  },
+  {
+    day: "Tuesday",
+    date: "2023-04-18",
+    schedule: tuesdaySchedule
+  },
+  {
+    day: "Wednesday",
+    date: "2023-04-19",
+    schedule: wednesdaySchedule
+  },
+  {
+    day: "Thursday",
+    date: "2023-04-20",
+    schedule: thursdaySchedule
+  },
+  {
+    day: "Friday",
+    date: "2023-04-21",
+    schedule: fridaySchedule
+  },
+  {
+    day: "Saturday",
+    date: "2023-04-22",
+    schedule: saturdaySchedule
+  },
+  {
+    day: "Sunday",
+    date: "2023-04-23",
+    schedule: sundaySchedule
+  },
+  {
+    day: "Monday",
+    date: "2023-04-24",
+    schedule: mondaySchedule
+  },
+  {
+    day: "Tuesday",
+    date: "2023-04-25",
+    schedule: tuesdaySchedule
+  },
+  {
+    day: "Wednesday",
+    date: "2023-04-26",
+    schedule: wednesdaySchedule
+  },
+  {
+    day: "Thursday",
+    date: "2023-04-27",
+    schedule: thursdaySchedule
+  },
+  {
+    day: "Friday",
+    date: "2023-04-28",
+    schedule: fridaySchedule
+  }
 ]

@@ -1,9 +1,9 @@
 import './App.css';
 import Radio from './components/Radio/Radio.js'
 import BannerPlayer from './components/BannerPlayer/BannerPlayer.js'
-import GalleryCarousel from './components/GalleryCarousel/GalleryCarousel.js'
+import Carousel from './components/GalleryCarousel/GalleryCarousel.js'
 import Logo from './assets/misoul-logo.png'
-import { bannerPlayerInfo, residentDjsList } from './config.js'
+import { bannerPlayerInfo, residentDjsList, eventsList } from './config.js'
 import MisoulPicks from './components/MisoulPicks/MisoulPicks.js'
 import Catalogue from './components/Catalogue/Catalogue.js'
 import Residents from './components/Residents/Residents.js'
@@ -35,7 +35,7 @@ function App() {
             <div className={`nav-menu-links${dropDownActive}`}>
               <NavLink to='/radio' className='button-nav'>Radio</NavLink>
               <NavLink to='/latest' className='button-nav'>Latest</NavLink>
-              <NavLink to='/explore' className='button-nav'>Explore</NavLink>
+              {/* <NavLink to='/explore' className='button-nav'>Explore</NavLink> */}
               <NavLink to='/events' className='button-nav'>Events</NavLink>
             </div>
           </div>
@@ -66,7 +66,7 @@ function App() {
         </div>
         <div>
         <Routes>
-        <Route exact path='/' element={< GalleryCarousel />}>
+        <Route exact path='/' element={< Carousel images={eventsList} />}>
         </Route>
           <Route exact path='/radio' element={< Radio />}></Route>
           <Route exact path='/misoul-picks' element={< MisoulPicks />}></Route>
